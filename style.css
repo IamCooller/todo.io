@@ -1,0 +1,45 @@
+body {
+    background-color: #abc;
+}
+
+*,
+h1,
+button {
+    background: none;
+    border: none;
+}
+
+p,h1, th{
+    color: #ffffff;
+}
+.new-task{
+      border: 1px solid;
+      padding: 2em;
+      background: linear-gradient(45deg, #cd05ffd4, #ff00005e);
+      border-radius: 0 0 49px;
+}
+
+.btn{
+    float: right;
+}
+
+.table{
+    max-width: 400px;
+}
+
+.task-block{
+      max-width: 400px;
+      background: aqua;
+      padding: 10px 27px;
+      border: 1px solid gold;
+      border-radius: 17px;
+        width: 100%;
+        margin: 20px;
+        position: relative;
+    }
+.delete-task {
+    position: absolute;
+    right: 19px;
+    top: 13px;
+}
+ 
